@@ -1,0 +1,8 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:andrewksl/exercise",
+  "author": "Andrew Lee <andrew@andrewksl.com>",
+  "license": "MIT"
+}
