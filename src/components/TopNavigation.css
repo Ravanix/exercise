@@ -1,0 +1,10 @@
+#TopNavigation {
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+}
+
+#TopNavigation .NavItem {
+    display: inline-block;
+    margin: 0px;
+    padding: 10px 30px;
+}

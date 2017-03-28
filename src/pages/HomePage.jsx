@@ -14,39 +14,21 @@ export default class HomePage extends Component {
         <div className="row">
           <div className="twelve columns">
             <h1>Welcome.</h1>
-            Welcome to the Jetspree exercise.
+            <p>Welcome to the Jetspree git exercise.</p>
+            <p>This is a simple React app that we will work on collaboratively in order to learn git.</p>
 
-            <PageLinkContainer>
-              <PageLink name="Andrew" path="/andrew"/>
-            </PageLinkContainer>
+            <h5>On the agenda: </h5>
+            <ul>
+              <li>Branches</li>
+              <li>Pull requests</li>
+              <li>Code review</li>
+              <li>Merging</li>
+              <li>Rebasing</li>
+            </ul>
+
 
           </div>
         </div>
-      </div>
-    );
-  }
-}
-
-class PageLinkContainer extends Component {
-
-  render() {
-    return (
-      <div className="PageLinkContainer">
-        {this.props.children}
-      </div>
-    );
-  }
-
-}
-
-class PageLink extends Component {
-
-  render() {
-
-    return (
-      <div className="PageLink">
-        <h4>{this.props.name}</h4>
-        <Link to={this.props.path}>Click here</Link>
       </div>
     );
   }
