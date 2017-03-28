@@ -15,11 +15,8 @@ export default {
     vendor: [
       'react',
       'react-dom',
-      'react-bootstrap',
       'react-router',
-      'react-router-bootstrap',
       'moment',
-      'jwt-decode',
     ]
   },
   output: {
