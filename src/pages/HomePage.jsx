@@ -20,6 +20,7 @@ export default class HomePage extends Component {
             <h5>On the agenda: </h5>
             <ul>
               <li><s>Best practices</s></li>
+              <li><s>Branches</s></li>
               <li>Pull requests</li>
               <li>Code review</li>
               <li>Merging</li>
