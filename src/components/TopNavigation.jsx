@@ -11,6 +11,7 @@ export default class TopNavigation extends Component {
         <NavItem path="/andrew">Andrew</NavItem>
         <NavItem path="/yuho">Yuho</NavItem>
         <NavItem path="/samuel">Samuel</NavItem>
+        <NavItem path="/jas">Jas</NavItem>
       </ul>
     );
   }

@@ -7,6 +7,7 @@ import NotFoundPage from './pages/NotFoundPage'
 import AndrewsPage from './pages/AndrewsPage'
 import YuhoPage from './pages/YuhoPage'
 import SamuelsPage from './pages/SamuelsPage'
+import JasPage from './pages/JasPage'
 import 'skeleton-css/css/normalize.css'
 import 'skeleton-css/css/skeleton.css'
 
@@ -18,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <Route path="andrew" component={AndrewsPage} />
         <Route path="yuho" component={YuhoPage} />
         <Route path="samuel" component={SamuelsPage} />
+        <Route path="jas" component={JasPage} />
         <IndexRoute component={HomePage} />
         <Route path="*" component={NotFoundPage}/>
       </Route>
