@@ -5,6 +5,7 @@ import App from './app/App';
 import HomePage from './pages/HomePage'
 import NotFoundPage from './pages/NotFoundPage'
 import AndrewsPage from './pages/AndrewsPage'
+import YuhoPage from './pages/YuhoPage'
 import 'skeleton-css/css/normalize.css'
 import 'skeleton-css/css/skeleton.css'
 
@@ -14,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <Router history={browserHistory}>
       <Route path="/" component={App}>
         <Route path="andrew" component={AndrewsPage} />
+        <Route path="yuho" component={YuhoPage} />
         <IndexRoute component={HomePage} />
         <Route path="*" component={NotFoundPage}/>
       </Route>
