@@ -8,7 +8,8 @@ export default class TopNavigation extends Component {
     return (
       <ul id="TopNavigation">
         <NavItem path="/">Home</NavItem>
-        <NavItem path="/andrew">Andrew XX</NavItem>
+        <NavItem path="/andrew">Andrew</NavItem>
+        <NavItem path="/yuho">Yuho</NavItem>
       </ul>
     );
   }
